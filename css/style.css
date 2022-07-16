@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    margin: 50px auto;
+}
+.cardContainer{
+    width: 400px;
+    margin: 0 auto;
+}
