@@ -10,3 +10,6 @@
     width: 400px;
     margin: 0 auto;
 }
+.zoom:hover{
+    transform: scale(1.05) ;
+}
