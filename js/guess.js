@@ -8,11 +8,11 @@ while (userNumber != targetNumber) {
         break;
     }
     if (userNumber < targetNumber) {
-        console.log("No es correcto, prueba con un numero mas grande!");
-        userNumber = parseInt(prompt("Ingresa un numero mayor!"));
+        console.log("El numero secreto es mayor que "+ userNumber);
+        userNumber = parseInt(prompt("El numero secreto es mayor que "+ userNumber));
     } else {
-        console.log("No es correcto, prueba con un numero mas chico");
-        userNumber = parseInt(prompt("Ingresa un numero menor!"));
+        console.log("El numero secreto es menor que " + userNumber);
+        userNumber = parseInt(prompt("El numero secreto es menor que " + userNumber));
     }
     attemps += 1;
 
